@@ -29,7 +29,7 @@ body {
 	<div align="center" class="navbar navbar-inverse navbar-fixed-top">
 	<div class="navbar-header"></div>
 		<div class="header">
-			<h3 style="color: azure;font-family: cursive;">ASSIGNMENT OF TASKS</h3>
+			<h3 style="color: azure;font-family: cursive;">ASSIGNMENT OF TASK</h3>
 		</div>
 	</div>
 	<br><br><br><br>
