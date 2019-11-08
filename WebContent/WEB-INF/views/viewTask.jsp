@@ -34,7 +34,7 @@
 		<div align="center" class="navbar navbar-inverse navbar-fixed-top marginDisplay">
 			<div class="navbar-header"></div>
 			<div class="header">
-				<h3 style="color: azure;font-family: cursive;">VIEW TASK</h3>
+				<h3 style="color: azure;font-family: cursive;">VIEW ASSIGNED TASK</h3>
 			</div>
 		</div>
 		
