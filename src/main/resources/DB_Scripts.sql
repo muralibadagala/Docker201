@@ -18,8 +18,8 @@
 --
 -- Table structure for table `employee`
 --
-CREATE DATABASE task_management;
-USE task_management;
+CREATE DATABASE task_assignment;
+USE task_assignment;
 DROP TABLE IF EXISTS `employee`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
