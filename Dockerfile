@@ -9,7 +9,7 @@ RUN cd AssigningTask && mvn clean install -Dmaven.test.skip=true
 RUN mkdir /usr/local/tomcat
 ADD http://mirrors.estointernet.in/apache/tomcat/tomcat-8/v8.5.47/bin/apache-tomcat-8.5.47.tar.gz /tmp/tomcat.tar.gz
 RUN cd /tmp && tar xvfz tomcat.tar.gz
-RUN cp -Rv /tmp/apache-tomcat-8.5.33/* /usr/local/tomcat/
+RUN cp -Rv /tmp/apache-tomcat*/* /usr/local/tomcat/
 EXPOSE 8080
 RUN cp /tmp/docker/AssigningTask/target/Spring201-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/Spring201-0.0.1-SNAPSHOT.war
 CMD /usr/local/tomcat/bin/catalina.sh run
