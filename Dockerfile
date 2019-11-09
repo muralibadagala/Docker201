@@ -7,7 +7,7 @@ RUN apt-get -y update && apt-get -y install maven
 RUN git clone https://github.com/Suyash-g/AssigningTask.git
 RUN cd AssigningTask && mvn clean install -Dmaven.test.skip=true
 RUN mkdir /usr/local/tomcat
-ADD http://www-eu.apache.org/dist/tomcat/tomcat-8/v8.5.33/bin/apache-tomcat-8.5.33.tar.gz  /tmp/tomcat.tar.gz
+ADD http://mirrors.estointernet.in/apache/tomcat/tomcat-8/v8.5.47/bin/apache-tomcat-8.5.47.tar.gz /tmp/tomcat.tar.gz
 RUN cd /tmp && tar xvfz tomcat.tar.gz
 RUN cp -Rv /tmp/apache-tomcat-8.5.33/* /usr/local/tomcat/
 EXPOSE 8080
