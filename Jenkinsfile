@@ -67,7 +67,8 @@ def pushToImage(containerName, tag, dockerUser, dockerPassword){
 }
 
 def runApp(containerName, tag, dockerHubUser, httpPort){
-    sh "sudo docker pull $dockerHubUser/$containerName"
-    sh "sudo docker run -d --rm -p 8888:8080 --name $containerName $dockerHubUser/$containerName:$tag"
+    //sh "sudo docker pull $dockerHubUser/$containerName"
+    //sh "sudo docker run -d --rm -p 8888:8080 --name $containerName $dockerHubUser/$containerName:$tag"
+    sh "sudo docker-compose up"
     echo "Application started on port: 8888 (http)"
 }
