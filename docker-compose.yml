@@ -9,7 +9,7 @@ mysql:
    - ./sql:/var/lib/mysql
 
 webapp:
- build: ./
+ image: thesuyashgupta/docker-pipeline-demo:latest
  ports:
   - 8888:8080
  links:
