@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.7.15, for Win64 (x86_64)
 --
--- Host: localhost    Database: task_management
+-- Host: localhost    Database: task_assignment
 -- ------------------------------------------------------
 -- Server version	5.1.59-community
 
