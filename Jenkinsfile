@@ -1,6 +1,6 @@
-def CONTAINER_NAME="docker-pipeline-demo"
+def CONTAINER_NAME="docker-201"
 def CONTAINER_TAG="latest"
-def DOCKER_HUB_USER="thesuyashgupta"
+def DOCKER_HUB_USER="muralidevops"
 def HTTP_PORT="8090"
 
 node {
